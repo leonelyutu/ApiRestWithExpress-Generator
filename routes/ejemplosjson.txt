@@ -1,0 +1,6 @@
+Insercion en tabla users, en base de datos test
+
+curl -H "Accept: application/json" -H "Content-type: application/json" -X POST -d '{"name":"xyw"}' http://localhost:3000/api/v1/users/insert
+
+insertando dos o mas valores en la tabla users
+curl -H "Accept: application/json" -H "Content-type: application/json" -X POST -d '{"id":"100","name":"xyw"}' http://localhost:3000/api/v1/users/insert
